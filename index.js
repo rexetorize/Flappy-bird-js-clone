@@ -93,3 +93,8 @@ function HandleCollision() {
 document.querySelector(".btn").addEventListener("click", () => {
   location.reload();
 });
+
+document.querySelector("#btnHowTo").addEventListener("click", () => {
+  alert("Press space to Jump ");
+});
+
