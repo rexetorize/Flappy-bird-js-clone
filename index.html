@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>First JavaScript game</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <style>
+      #gameScreen {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        border: 2px solid black;
+        transform: translate(-50%, -50%);
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="gameScreen" width="800" height="600"></canvas>
+    <br />
+    <button
+      type="submit"
+      style="margin-left: 20px;"
+      type="button"
+      class="btn btn-warning"
+    >
+      RESET
+    </button>
+  </body>
+  <script src="./bird.js"></script>
+  <script src="./particle.js"></script>
+  <script src="./obstacles.js"></script>
+  <script src="./index.js"></script>
+</html>
