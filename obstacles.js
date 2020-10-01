@@ -1,13 +1,14 @@
 const obstacleArray = [];
 
+//for creating an obs tacle object
 class Obstacle {
   constructor() {
-    this.top = (Math.random() * canvas.height) / 2.5 + 20;
-    this.bottom = (Math.random() * canvas.height) / 2.5 + 20;
+    this.top = (Math.random() * canvas.height) / 2.1 + 20;
+    this.bottom = (Math.random() * canvas.height) / 2.1 + 20;
     this.width = 20;
     this.counted = false;
     this.x = canvas.width;
-    this.color = `hsl(${hue}, 100%, 50% )`;
+    this.color = `hsl(${hue}, 100%, 20% )`;
   }
 
   draw() {
